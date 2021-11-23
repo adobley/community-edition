@@ -11,6 +11,7 @@ metadata:
   annotations:
     kapp.k14s.io/disable-default-label-scoping-rules: ""
     kapp.k14s.io/update-strategy: fallback-on-replace
+    testing-some-stuff: "did-it-work"
 
 spec:
   template:
