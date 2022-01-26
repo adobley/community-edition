@@ -3,7 +3,7 @@ kind: PackageMetadata
 metadata:
   name: external-dns.community.tanzu.vmware.com
 spec:
-  displayName: "external-dns"
+  displayName: "external-dns-2"
   shortDescription: "This package provides DNS synchronization functionality."
   longDescription: "This package provides functionality to synchronize exposed Kubernetes Services and Ingresses with DNS providers."
   providerName: VMware

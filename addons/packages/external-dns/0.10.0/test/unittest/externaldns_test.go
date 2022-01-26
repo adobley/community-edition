@@ -57,7 +57,7 @@ var _ = Describe("External DNS Ytt Templates", func() {
 
 	Context("No configuration", func() {
 		It("renders with an error", func() {
-			Expect(err).To(ContainSubstring("configuration is required for external-dns"))
+			Expect(err).To(ContainSubstring("configuration is not required for external-dns"))
 		})
 	})
 
